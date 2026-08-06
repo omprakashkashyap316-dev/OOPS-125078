@@ -24,10 +24,14 @@ int main(){
         scanf("%d",&arr[i].marks);
         printf("\n");
     }
-    printf("\nstudent details");
+    int max=0;
     for(int i=0;i<n;i++){
-        printf("\nstudent name:%s\nroll number:%d\nmarks obtained:%d\n",arr[i].name,arr[i].rollno,arr[i].marks);
+        if(arr[i].marks>arr[max].marks){
+            max=i;
+        }
     }
+    printf("\nstudent details who scored highest marks\n");
+    printf("\nstudent name:%s\nroll number:%d\nmarks obtained:%d\n",arr[max].name,arr[max].rollno,arr[max].marks);
     free(arr);
     return 0;
 }
