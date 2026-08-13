@@ -16,7 +16,7 @@ class hostelfee{
             cin>>fee;
             cout<<"enter number of months stayed in hostel:";
             cin>>months;
-            cout<<"fee submission on time(yes for 0 and no for any number):";
+            cout<<"fee submission on time(0 for yes and any number for no):";
             cin>>late;
         }
         int total(){
