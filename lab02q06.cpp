@@ -23,7 +23,7 @@ class time{
             t = t1+t2;
         }
         void display(){
-            cout<<"resulting time"<<endl<<"hour:"<<t/60<<endl<<"minute:"<<t%60<<endl;
+            cout<<"result time"<<endl<<"hour:"<<t/60<<endl<<"minute:"<<t%60<<endl;
         }
 };
 int main(){
