@@ -29,7 +29,7 @@ int main(){
     cin>>n;
     employee *e = new employee[n];
     for(int i=0;i<n;i++){
-        cout<<"enter "<<i<<" product details"<<endl;
+        cout<<"enter "<<i+1<<" employee details"<<endl;
         e[i].getdata();
         cout<<endl;
     }
